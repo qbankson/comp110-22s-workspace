@@ -25,7 +25,7 @@ if len(wordchoice) == 5:
         if ltrchoice != wordchoice[0] and ltrchoice != wordchoice[1] and ltrchoice != wordchoice[2] and ltrchoice != wordchoice[3] and ltrchoice != wordchoice[4]:
             print("No instances of " + ltrchoice + " found in " + wordchoice)
         if counter == 1: 
-            print(str(counter) + " instances of " + ltrchoice + " found in " + wordchoice)
+            print(str(counter) + " instance of " + ltrchoice + " found in " + wordchoice)
         if counter == 2: 
             print(str(counter) + " instances of " + ltrchoice + " found in " + wordchoice)
         if counter == 3:
